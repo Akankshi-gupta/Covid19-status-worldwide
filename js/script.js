@@ -1,8 +1,8 @@
 async function makeRequest() {
 
-    const url = "http://coronavirus.m.pipedream.net/";
+    const url = "https://coronavirus.m.pipedream.net/";
     let response = await fetch(url);
-    let data = await response.json();
+    let data = await response.json(); 
     return data;
 
 }
