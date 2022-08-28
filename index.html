@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid19 Status</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="loader"></div>
+    <div class="search-bar">
+        <input onkeyup="filter_rows()" type="search" placeholder="Country/State Name" id="search_input">
+
+
+    </div>
+
+    <div class="globalStatus">
+        <p>Global Status</p>
+        <img class="global" src="/images/worldwide.png">
+        <div id="confirmed_cases"><br>
+            Confirmed Cases
+
+        </div>
+        <div id="deaths"><br>
+            Deaths
+
+        </div>
+        <div id="last_update"><br>
+            Last Updated
+
+        </div>
+    </div>
+
+    <table id="data_table">
+        <tr>
+            <th>Countries</th>
+            <th>State</th>
+            <th>Confirmed Cases</th>
+            <th> Deaths</th>
+            <th> Last Updated
+            </th>
+
+
+        </tr>
+
+    </table>
+
+
+
+    <script src="/js/script.js"></script>
+</div>
+</body>
+
+</html>

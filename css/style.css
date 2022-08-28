@@ -1,0 +1,138 @@
+body {
+    background: #acb6e5; 
+background: -webkit-linear-gradient(to left, #86fde8, #acb6e5);  
+background: linear-gradient(to left, #86fde8, #acb6e5); 
+
+
+}
+
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position:absolute;
+    right:40%;
+    bottom:30%;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.search-bar {
+   
+    width: 35%;
+    height: 4%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 1.5vw;
+}
+
+
+
+
+#confirmed_cases {
+   
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    border: 3px solid rgb(115, 133, 92);
+    border-radius: 10px;
+    border-width: 2px;
+    width: 13vw;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+   
+}
+h2{
+    color: #136a8a;
+}
+
+#deaths {
+   
+    position: absolute;
+    left: 2%;
+    top: 45%;
+    border: 3px solid rgb(115, 133, 92);
+    border-radius: 10px;
+    border-width: 2px;
+    width: 13vw;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+}
+
+#last_update {
+  
+    position: absolute;
+    left: 2%;
+    top: 70%;
+    border: 3px solid rgb(115, 133, 92);
+    border-radius: 10px;
+    border-width: 2px;
+    width: 13vw;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+}
+
+ #data_table {
+ 
+    border-collapse: collapse;
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    width: 50%;
+    display: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 221, 250, 0.2);
+    overflow-x:auto;
+    
+
+}
+
+ #data_table th {
+    border: 0.1875em solid rgb(0, 0, 0);
+    padding: 0.9375em;
+    font-size: 1.5vw;
+
+}
+
+ #data_table td {
+    border:0.1875em solid rgb(0, 0, 0);
+    padding: 0.9375em;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.global{
+    width:5%;
+    position: absolute;
+   top:6%;
+   left:2%;
+}
+p{
+    position: absolute;
+    top:8%;
+    left:7.5%;
+    font-size: 1.3vw;
+   
+}
+
