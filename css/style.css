@@ -155,8 +155,8 @@ p{
       }
     .search-bar {
        
-        width: 40%;
-        height: 4%;
+        width: 45%;
+        height: 3%;
         background: rgba(102, 95, 95, 0.2);
         display: flex;
         align-items: center;
@@ -164,7 +164,7 @@ p{
         padding: 10px 20px;
         position: absolute;
         top: 10%;
-        right: 20%;
+        right: 11%;
     }
     
     .search-bar input {
@@ -173,7 +173,7 @@ p{
         border: 0;
         outline: none;
         padding: 24px 20px;
-        font-size: 1.5vw;
+        font-size: 3.5vw;
     }
     #confirmed_cases {
        
@@ -225,7 +225,7 @@ p{
      
         border-collapse: collapse;
         position: absolute;
-        right: 10%;
+        right: 6%;
         top: 21%;
         width: 65%;
         display: none;
@@ -259,7 +259,7 @@ p{
         position: absolute;
         top:13%;
         left:9.5%;
-        font-size: 1.8vw;
+        font-size: 2.5vw;
        
     }
 }
