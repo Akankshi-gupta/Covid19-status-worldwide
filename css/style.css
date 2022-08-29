@@ -26,7 +26,7 @@ background: linear-gradient(to left, #86fde8, #acb6e5);
    
     width: 35%;
     height: 4%;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(102, 95, 95, 0.2);
     display: flex;
     align-items: center;
     border-radius: 60px;
@@ -98,9 +98,9 @@ h2{
  
     border-collapse: collapse;
     position: absolute;
-    right: 20%;
+    right: 10%;
     top: 25%;
-    width: 50%;
+    width: 65%;
     display: none;
     color: rgb(0, 0, 0);
     background-color: rgba(0, 221, 250, 0.2);
